@@ -1,0 +1,13 @@
+### List all messages
+GET http://localhost:3000/messages
+
+### 새로운 메세지 생성
+POST http://localhost:3000/messages
+content-type: application/json
+
+{
+  "content": "오케이 무키!"
+}
+
+### 1개의 메세지 요청
+GET http://localhost:3000/messages/11
